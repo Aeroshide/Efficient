@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "efficient",
+	"version": "${version}",
+	"name": "Efficient",
+	"description": "Faster loading by dividing chunk gen into multiple tiny threads.",
+	"authors": [
+		"Aeroshide"
+	],
+	"contact": {
+		"homepage": "https://www.twitch.tv/r3nr_",
+		"sources": "https://www.twitch.tv/r3nr_",
+		"issues": "https://www.twitch.tv/r3nr_"
+	},
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.aeroshide.efficient.Efficient"
+		]
+	},
+	"mixins": [
+		"efficient.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.11.3"
+	}
+}
